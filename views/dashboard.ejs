@@ -123,10 +123,7 @@
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
-                                                <th>Email</th>
-                                                <th>Blood-Group</th>
-                                                <th>Status</th>
-                                                <th>URL</th>
+                                                <th>X-Ray Image</th>
                                                 <th>Predicted Result</th>
                                             </tr>
                                         </thead>
@@ -134,9 +131,6 @@
                                             <% posts.forEach((post) => { %>
                                             <tr class="odd gradeX">
                                                 <td><%= post.name %></td>
-                                                <td><%= post.email %></td>
-                                                <td><%= post.bloodgroup %></td>
-                                                <td><%= post.status %></td>
                                                 <td><a href=<%= post.imgurl %> target="_blank">Click Here</a> </td>
                                                 <td><%= post.result %></td>
                                                 <!-- <td class="center">4</td>
