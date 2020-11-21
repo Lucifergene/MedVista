@@ -22,6 +22,7 @@ mongoose.connect('mongodb+srv://avik6028:avik240299@cluster0.ofqrh.mongodb.net/o
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
 
 app.use(logger('dev'));

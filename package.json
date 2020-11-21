@@ -2,7 +2,6 @@
   "name": "medvista",
   "version": "0.0.0",
   "private": true,
-
   "dependencies": {
     "body-parser": "^1.19.0",
     "bootstrap": "^3.3.6",
