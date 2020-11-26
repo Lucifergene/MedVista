@@ -9,6 +9,7 @@
     "datatables.net": "^1.10.11",
     "datatables.net-bs": "^1.10.11",
     "debug": "~2.2.0",
+    "dotenv": "^8.2.0",
     "ejs": "~2.5.5",
     "express": "^4.17.1",
     "flot-charts": "^0.8.3",

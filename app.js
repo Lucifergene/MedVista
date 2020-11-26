@@ -4,14 +4,18 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+require('dotenv').config()
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
 
+const USERNAME = process.env.MONGODB_USERNAME
+const PASSWORD = process.env.MONGODB_PASSWORD
+
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://avik6028:avik240299@cluster0.ofqrh.mongodb.net/optum?retryWrites=true&w=majority', {useUnifiedTopology: true, useNewUrlParser: true })
+mongoose.connect(`mongodb+srv://${USERNAME}:${PASSWORD}@cluster0.ofqrh.mongodb.net/optum?retryWrites=true&w=majority`, {useUnifiedTopology: true, useNewUrlParser: true })
 
   .then(() => 
         console.log('You Are MongoDB Connected !'))

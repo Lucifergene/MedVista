@@ -1,6 +1,6 @@
 # MedVista: Web Application Portal
 
-![NodeJS](https://img.shields.io/badge/nodejs-v10.6+-blue.svg)[![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant)![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)[![Live Demo](https://img.shields.io/badge/Live-Heroku-purple.svg)](https://medvista.herokuapp.com) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![NodeJS](https://img.shields.io/badge/nodejs-v10.6+-blue.svg) [![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant) ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg) [![Live Demo](https://img.shields.io/badge/Live-Heroku-purple.svg)](https://medvista.herokuapp.com) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 MedVista is an Integrated Medical Platform tailored for the specific needs of the Doctors. Through this platform, they can efficiently access their patient information in real-time. Easy to track Appointments, Payments and Review Reports. Thus, Doctors can focus more on their job.
 
